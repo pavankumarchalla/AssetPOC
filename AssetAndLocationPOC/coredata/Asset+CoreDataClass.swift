@@ -17,5 +17,10 @@ public class Asset: NSManagedObject {
 		self.assetID =  json["ASSETUID"] as? Int64 ?? 0
 		self.assetDesc = json["DESCRIPTION"] as? String
 	}
+  
+  func buildFromObject(asset: ASSET) {
+    self.assetID = Int64(asset.ASSETUID ?? 0)
+    self.assetDesc = asset.DESCRIPTION
+  }
 	
 }

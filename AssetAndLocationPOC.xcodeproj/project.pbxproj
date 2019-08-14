@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		653690C4230402D500CE0534 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653690C3230402D500CE0534 /* Response.swift */; };
 		D88839822302DD820095FCFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88839812302DD820095FCFA /* AppDelegate.swift */; };
 		D88839842302DD820095FCFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88839832302DD820095FCFA /* ViewController.swift */; };
 		D88839872302DD820095FCFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88839852302DD820095FCFA /* Main.storyboard */; };
@@ -14,14 +15,15 @@
 		D888398C2302DD840095FCFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D888398B2302DD840095FCFA /* Assets.xcassets */; };
 		D888398F2302DD840095FCFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D888398D2302DD840095FCFA /* LaunchScreen.storyboard */; };
 		D88839972302E0160095FCFA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88839962302E0160095FCFA /* CoreDataManager.swift */; };
-		D88839992302E0440095FCFA /* asset.json in Resources */ = {isa = PBXBuildFile; fileRef = D88839982302E0430095FCFA /* asset.json */; };
 		D88839A62302E3020095FCFA /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88839A22302E3020095FCFA /* Location+CoreDataClass.swift */; };
 		D88839A72302E3020095FCFA /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88839A32302E3020095FCFA /* Location+CoreDataProperties.swift */; };
 		D88839A82302E3020095FCFA /* Asset+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88839A42302E3020095FCFA /* Asset+CoreDataClass.swift */; };
 		D88839A92302E3020095FCFA /* Asset+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88839A52302E3020095FCFA /* Asset+CoreDataProperties.swift */; };
+		D8E600B92304609C00DC71F3 /* asset.json in Resources */ = {isa = PBXBuildFile; fileRef = D8E600B82304609C00DC71F3 /* asset.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		653690C3230402D500CE0534 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		D888397E2302DD820095FCFA /* AssetsAndLocationPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetsAndLocationPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88839812302DD820095FCFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D88839832302DD820095FCFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,11 +33,11 @@
 		D888398E2302DD840095FCFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D88839902302DD840095FCFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D88839962302E0160095FCFA /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		D88839982302E0430095FCFA /* asset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = asset.json; sourceTree = "<group>"; };
 		D88839A22302E3020095FCFA /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D88839A32302E3020095FCFA /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D88839A42302E3020095FCFA /* Asset+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asset+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D88839A52302E3020095FCFA /* Asset+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Asset+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D8E600B82304609C00DC71F3 /* asset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = asset.json; path = ../../../../Downloads/asset.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,8 @@
 				D88839812302DD820095FCFA /* AppDelegate.swift */,
 				D88839962302E0160095FCFA /* CoreDataManager.swift */,
 				D88839832302DD820095FCFA /* ViewController.swift */,
-				D88839982302E0430095FCFA /* asset.json */,
+				D8E600B82304609C00DC71F3 /* asset.json */,
+				653690C3230402D500CE0534 /* Response.swift */,
 				D88839852302DD820095FCFA /* Main.storyboard */,
 				D888398B2302DD840095FCFA /* Assets.xcassets */,
 				D888398D2302DD840095FCFA /* LaunchScreen.storyboard */,
@@ -161,7 +164,7 @@
 			files = (
 				D888398F2302DD840095FCFA /* LaunchScreen.storyboard in Resources */,
 				D888398C2302DD840095FCFA /* Assets.xcassets in Resources */,
-				D88839992302E0440095FCFA /* asset.json in Resources */,
+				D8E600B92304609C00DC71F3 /* asset.json in Resources */,
 				D88839872302DD820095FCFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +180,7 @@
 				D888398A2302DD820095FCFA /* AssetAndLocationPOC.xcdatamodeld in Sources */,
 				D88839A72302E3020095FCFA /* Location+CoreDataProperties.swift in Sources */,
 				D88839A82302E3020095FCFA /* Asset+CoreDataClass.swift in Sources */,
+				653690C4230402D500CE0534 /* Response.swift in Sources */,
 				D88839A92302E3020095FCFA /* Asset+CoreDataProperties.swift in Sources */,
 				D88839972302E0160095FCFA /* CoreDataManager.swift in Sources */,
 				D88839A62302E3020095FCFA /* Location+CoreDataClass.swift in Sources */,
